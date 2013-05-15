@@ -1,8 +1,8 @@
 define(
 
 	[
-		"../base/Class",
-		"../utils/Utils"
+		"rosy/base/Class",
+		"rosy/utils/Utils"
 	],
 
 	function (Class, Utils) {

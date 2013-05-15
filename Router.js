@@ -1,8 +1,8 @@
 define(
 
 	[
-		"../base/Class",
-		"rosy/views/ViewNotification",
+		"rosy/base/Class",
+		"./ViewNotification",
 		"./Route",
 		"$"
 	],

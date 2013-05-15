@@ -1,7 +1,7 @@
 define(
 
 	[
-		"../base/DOMClass",
+		"rosy/base/DOMClass",
 		"./ViewNotification"
 	],
 
