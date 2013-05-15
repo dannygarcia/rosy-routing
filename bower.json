@@ -1,0 +1,8 @@
+{
+	"name": "rosy-routing",
+	"version": "1.0.0",
+	"main": [],
+	"dependencies": {
+		"rosy": "git@github.com:ff0000/rosy.git#1.0.0-bower"
+	}
+}
