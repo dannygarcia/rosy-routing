@@ -252,7 +252,7 @@ define(
 				function waitForBoth(fn1, fn2, cb) {
 					var count = 0;
 					function done() {
-						count ++;
+						count++;
 						if (count === 2) {
 							cb();
 						}
