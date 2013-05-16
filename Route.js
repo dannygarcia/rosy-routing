@@ -1,11 +1,10 @@
 define(
 
 	[
-		"rosy/base/Class",
-		"rosy/utils/Utils"
+		"rosy/base/Class"
 	],
 
-	function (Class, Utils) {
+	function (Class) {
 
 		"use strict";
 
