@@ -262,7 +262,7 @@ define(
 				}
 
 				function next() {
-					var action, count, wait;
+					var action;
 					// if we don't have a queue or are at the end of the queue, do nothing
 					if (queue.length === 0) {
 						return;
