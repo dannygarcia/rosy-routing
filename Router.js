@@ -234,7 +234,6 @@ define(
 				}
 				this._lastView = this.view;
 				this.view = new View(config, params, data);
-				this.view.__init(config, params, data);
 				this.transition(this.view, this._lastView, this._sequence);
 			},
 
