@@ -98,6 +98,9 @@ define(
 
 			_hrefMatchesPath : function (href, path) {
 				var i;
+				if (href === "/" && path !== "/") {
+					return false;
+				}
 				for (i = 1; i < href.length; i++) {
 					if (href[i] !== path[i]) {
 						return false;
