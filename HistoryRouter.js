@@ -30,7 +30,8 @@ define(
 			},
 
 			update : function () {
-				this.route(this.getUrl());
+				var url = this.getUrl();
+				this.route(url, { route : url });
 			},
 
 			onRoute : function (path, data) {
